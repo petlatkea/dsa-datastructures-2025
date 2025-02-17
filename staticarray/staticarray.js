@@ -44,6 +44,9 @@ export default class StaticArray {
             target.set(Number(prop),value);
             return true; // not sure if this should return true or undefined
           }
+          if(prop === "length") {
+            throw new TypeError(".length property is read-only");
+          }
         }
 
         return Reflect.set(target,prop,value,receiver);
