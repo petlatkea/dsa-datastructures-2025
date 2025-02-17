@@ -5,9 +5,12 @@
   "description": "A collection of basic data structures implemented in JavaScript.",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Run npx mocha in the subdirectory of the structure you want to test\" && exit 1"
   },
   "keywords": [],
   "author": "Peter Lind",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  }
 }
