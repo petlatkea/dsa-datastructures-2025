@@ -26,6 +26,7 @@ to run tests on the StaticArray type.
 The structures are:
 
 * [StaticArray](/staticarray/) - an implementation of a fixed size array.
+* [DynamicArray](/dynamicarray/) - an implementation of a dynamic list, that uses an underlying fixed size array
 
 
 
