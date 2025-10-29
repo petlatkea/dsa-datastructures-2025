@@ -27,6 +27,7 @@ The structures are:
 
 * [StaticArray](/staticarray/) - an implementation of a fixed size array.
 * [DynamicArray](/dynamicarray/) - an implementation of a dynamic list, that uses an underlying fixed size array
+* [SinglyLinkedList](/singlylinkedlist/) - an implementation of a singly linked list, with pointers to `next` and `data`
 
 
 
