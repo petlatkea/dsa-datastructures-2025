@@ -109,6 +109,7 @@ You can also insert new data next to an existing node
 
 And you can remove an existing node
 ```js
+  list.removeNode(list.getNextNode(node)); // changes the list to C->R->A->T
   list.removeNode(node) // changes the list to C->R->T
 ```
 
