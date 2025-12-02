@@ -26,8 +26,11 @@ to run tests on the StaticArray type.
 The structures are:
 
 * [StaticArray](/staticarray/) - an implementation of a fixed size array.
+* [Grid](/grid/) - an implementation of a two-dimensional 'grid', with helper-methods for checking neighbours
 * [DynamicArray](/dynamicarray/) - an implementation of a dynamic list, that uses an underlying fixed size array
 * [SinglyLinkedList](/singlylinkedlist/) - an implementation of a singly linked list, with pointers to `next` and `data`
+* [DoublyLinkedList](/doublylinkedlist/) - an implementation of a doubly linked list, with pointers to `next`, `prev`, and `data`
+
 
 
 
