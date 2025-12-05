@@ -1,6 +1,5 @@
 import assert from "assert";
 import DynamicArray from "./dynamicarray.js";
-import { duplexPair } from "stream";
 
 describe("DynamicArray", function () {
   describe("Array operations", function () {
