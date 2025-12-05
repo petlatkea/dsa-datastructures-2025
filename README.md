@@ -12,6 +12,10 @@ Every data structure comes with comprehensive tests written with Mocha, and most
 ## Download and initialize
 Clone or Fork this repository, and run `npm i` to install necessary packages (only Mocha so far) and set up Node for using modules.
 
+## Usage and testing
+
+Most data structures have detailed **usage** information in their README, together with the reference. Most also have a `test_datastructure.js` file that contains most, if not all, of the examples in the usage. E.g. `test_singlylinkedlist.js` for the Singly Linked List.
+
 ### Run tests
 To run the tests, navigate to the subfolder of the particular data structure you want to test, and run `npx mocha` in that folder. E.g.
 
@@ -30,8 +34,5 @@ The structures are:
 * [DynamicArray](/dynamicarray/) - an implementation of a dynamic list, that uses an underlying fixed size array
 * [SinglyLinkedList](/singlylinkedlist/) - an implementation of a singly linked list, with pointers to `next` and `data`
 * [DoublyLinkedList](/doublylinkedlist/) - an implementation of a doubly linked list, with pointers to `next`, `prev`, and `data`
-
-
-
-
-
+* [Queue](/queue/) - an implementation of a queue, using pointers to `next` and `data`
+* [Stack](/stack/) - an implementation of a stack, using pointers to `next` and `data`
